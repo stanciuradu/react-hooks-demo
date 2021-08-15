@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import UseStateCounter from "./components/UseStateCounter";
 import UseStateDecrement from "./components/UseStateDecrement";
 import "./App.css";
+import UseEffect from "./components/UseEffect";
 
 function useStateExameple() {
   // se preiau prin destructuring din useState doi parametri
@@ -18,6 +19,7 @@ function useStateExameple() {
       </button>
       <UseStateCounter />
       <UseStateDecrement />
+      <UseEffect />
     </div>
   );
 }
